@@ -4,9 +4,9 @@ public class Member {
 
 	private Long id;
 	private String name;
-	private grade grade;
+	private Grade grade;
 	
-	public Member(Long id, String name, com.hello.core.member.grade grade) {
+	public Member(Long id, String name, Grade grade) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -44,14 +44,14 @@ public class Member {
 	/**
 	 * @return the grade
 	 */
-	public grade getGrade() {
+	public Grade getGrade() {
 		return grade;
 	}
 
 	/**
 	 * @param grade the grade to set
 	 */
-	public void setGrade(grade grade) {
+	public void setGrade(Grade grade) {
 		this.grade = grade;
 	}
 
